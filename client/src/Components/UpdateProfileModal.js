@@ -27,7 +27,7 @@ const UpdateProfileModal = ({ isOpen, onClose }) => {
 
     try {
       const response = await fetch(
-        "http://localhost:5000/user/update-profile",
+        "http://51.20.231.163:5000/user/update-profile",
         {
           method: "PATCH",
           headers: {
