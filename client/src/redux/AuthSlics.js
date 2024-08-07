@@ -5,7 +5,7 @@ import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 export const login = createAsyncThunk(
   "auth/login",
   async ({ username, password }) => {
-    const response = await fetch("http://16.171.151.62:5000/user/login", {
+    const response = await fetch("http://16.170.102.239:5000/user/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
